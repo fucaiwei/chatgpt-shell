@@ -1,12 +1,15 @@
 #!/bin/bash
 
-#caiwei
-#https://github.com/fucaiwei/chatgpt-shell.git
+# caiwei
+# https://github.com/fucaiwei/chatgpt-shell.git
+# 最简单的chatgpt
+# 1、chmod +x chatgpt.sh
+# 2、./chatgpt.sh
 
 URL="https://api.openai.com/v1/chat/completions"
 MODEL="gpt-3.5-turbo"
 ROLE="user"
-
+# 运行网络环境 能正常访问外网 或者科学上网
 # 设置OpenAI API密钥和其他请求参数
 read -p "请输入OPENAI_API_KEY: " OPENAI_API_KEY
 
